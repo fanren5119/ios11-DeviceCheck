@@ -8,7 +8,7 @@
     就标志这这一台设备；
     
 ## 3.客户端
-    导入库DeviceCheck
+    ①导入库DeviceCheck
     let device = DCDevice.current
     device.generateToken(competionHandler: { (data, error) in
     })
