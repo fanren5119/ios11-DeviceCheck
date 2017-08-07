@@ -8,13 +8,13 @@
     就标志这这一台设备；
     
 ## 3.客户端
-    ①导入库DeviceCheck
+    导入库DeviceCheck
     let device = DCDevice.current
     device.generateToken(competionHandler: { (data, error) in
     })
       
 ## 4.服务器端
-     ① 调用api获取bit值  
+     调用api获取bit值  
      requestJSON  
      {
      "device_token" : "wlkCDA2Hy/CfrMqVAShs1BAR/0sAiuRIUm5jQg0a...",  
@@ -22,7 +22,7 @@
       "timestamp" : 1487716472000 
      }
     
-     ② 调用api更新bit值
+     调用api更新bit值
      {
      "device_token" : "wlkCDA2Hy/CfrMqVAShs1BAR/0sAiuRIUm5jQg0a..."   
      "transaction_id" : "5b737ca6-a4c7-488e-b928-8452960c4be9",   
