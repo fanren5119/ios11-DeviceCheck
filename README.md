@@ -1,11 +1,11 @@
 # 1.DeviceCheck简介
     DeviceCheck是iOS 11新增的api，使用此api，可以通过你的服务器与Apple服务器通讯，
-    可以查询和设置每个设备的两个bit数据，同时保存用户隐私；
+    可以查询和设置每个设备的两个bit数据，同时保存用户隐私；
     
 ## 2.DeviceCheck工作流程
     在设备上，使用DeviceCheck api可以生成一个token，然后将这个api发给自己的服务器，
-    然后自己的服务器就可以与Apple服务器进行通讯；就可以获取到两个bit值，这两个bit值
-    就标志这这一台设备；
+    然后自己的服务器就可以与Apple服务器进行通讯；就可以获取到两个bit值，这两个bit值
+    就标志这这一台设备；
     
 ## 3.客户端
      ① 导入库DeviceCheck
