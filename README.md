@@ -14,19 +14,18 @@
     })
       
 ## 4.服务器端
-     调用api获取bit值  
-     requestJSON  
-     {
-     "device_token" : "wlkCDA2Hy/CfrMqVAShs1BAR/0sAiuRIUm5jQg0a...",  
-     "transaction_id" : "5b737ca6-a4c7-488e-b928-8452960c4be9",  
-      "timestamp" : 1487716472000 
-     }
-    
-     调用api更新bit值
-     {
-     "device_token" : "wlkCDA2Hy/CfrMqVAShs1BAR/0sAiuRIUm5jQg0a..."   
-     "transaction_id" : "5b737ca6-a4c7-488e-b928-8452960c4be9",   
-     "timestamp" : 1487716472000,    
-     "bit0" : true,   
-     "bit1" : false   
-     }
+    调用api获取bit值
+    requestJSON
+    {
+    "device_token" : "wlkCDA2Hy/CfrMqVAShs1BAR/0sAiuRIUm5jQg0a...",
+    "transaction_id" : "5b737ca6-a4c7-488e-b928-8452960c4be9",
+    "timestamp" : 1487716472000
+    }
+    调用api更新bit值
+    {
+    "device_token" : "wlkCDA2Hy/CfrMqVAShs1BAR/0sAiuRIUm5jQg0a..."
+    "transaction_id" : "5b737ca6-a4c7-488e-b928-8452960c4be9",
+    "timestamp" : 1487716472000,
+    "bit0" : true,
+    "bit1" : false
+    }
