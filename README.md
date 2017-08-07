@@ -8,10 +8,10 @@
     就标志这这一台设备；
     
 ## 3.客户端
-     ① 导入库DeviceCheck
-     ② let device = DCDevice.current  
-       device.generateToken(competionHandler: { (data, error) in    
-       })
+    ① 导入库DeviceCheck   
+    ② let device = DCDevice.current      
+        device.generateToken(competionHandler: { (data, error) in           
+      })
       
 ## 4.服务器端
      ① 调用api获取bit值  
